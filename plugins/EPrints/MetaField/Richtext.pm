@@ -92,6 +92,17 @@ sub render_single_value
         return $body;
 }
 
+sub get_property_defaults
+{
+	my( $self ) = @_;
+	my %defaults = $self->SUPER::get_property_defaults;
+
+	# Don't show the options to re-order richtext fields (as it is majorly broken)
+	$defaults{input_ordered} = 0;
+
+	return %defaults;
+}
+
 ######################################################################
 1;
 
