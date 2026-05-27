@@ -10,5 +10,7 @@ description: "This is an ingredient that provides rich text (i.e. HTML markup) f
 requires:
   - component: "core"
     version: ">= 3.5.0"
+  - component: "ingredient:jquery4eprints"
+    version: ">= 2.0"
 notes: "This can be installed by dropping into the ingredients sub-directory and adding to your archive's package.yml"
 readme: "https://github.com/eprints/richtext/blob/master/README.md"
