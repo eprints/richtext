@@ -110,7 +110,7 @@ sub get_property_defaults
 
 =begin COPYRIGHT_AND_LICENSE
 
-Copyright University of Southampton under the GNU Lesser General Public License. See https://github.com/eprints/richtext/README.md for further information.
+Copyright University of Southampton under the GNU Lesser General Public License. See README at https://github.com/eprints/richtext for further information.
 
 Richtext ingredient is supplied by EPrints Services.
 
