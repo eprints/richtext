@@ -35,7 +35,7 @@ BEGIN
 
 use EPrints::MetaField::Longtext;
 
-#returns a longtext field without TinyMCY initialisation to allow custom TinyMCE initalisation
+#returns a longtext field without TinyMCY initialisation to allow custom TinyMCE initialisation
 sub render_longtext
 {
 	my( $self, $session, $value, $dataset, $staff, $hidden_fields, $obj, $basename ) = @_;
